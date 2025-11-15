@@ -1,4 +1,4 @@
-script_key = 'XUYDQXI8YV1E5IP1EOQC3NDDAM7XVZ3K2'
+script_key = '6WVS8AY1LL2E80LJ65S2DKH3SYWS69E44'
 getgenv().AutofarmSettings = {
   ["Config"] = {
     ["Fps"] = 15,
